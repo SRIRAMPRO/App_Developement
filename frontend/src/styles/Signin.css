@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.signin-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../assets/all-images/cars-img/blue-car.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.signin-container {
+  background: rgba(45, 69, 96, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.input_space {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  color: #333;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+input:focus {
+  border-color: #007BFF;
+  background: rgba(255, 255, 255, 0.3);
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.form-text {
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+}
+
+.form-text span {
+  color: #007BFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form-text span:hover {
+  text-decoration: underline;
+}

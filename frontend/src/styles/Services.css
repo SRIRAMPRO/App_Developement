@@ -1,0 +1,33 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .service-card {
+    flex: 1 0 21%; 
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .service-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .service-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .service-description {
+    font-size: 14px;
+    color: #555;
+  }
+  

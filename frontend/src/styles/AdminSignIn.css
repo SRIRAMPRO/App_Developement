@@ -1,0 +1,78 @@
+.admin-signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #f5f5f5, #e0e0e0);
+}
+
+.admin-signin-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.admin-signin-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.admin-signin-input-group {
+  margin-bottom: 15px;
+}
+
+.admin-signin-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.admin-signin-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333; /* Ensure the text is visible */
+  background-color: #fff; /* White background for the input */
+}
+
+.admin-signin-input::placeholder {
+  color: #aaa; /* Set a light gray color for the placeholder */
+}
+
+.admin-signin-error-message {
+  color: #f44336;
+  font-size: 14px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.admin-signin-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-signin-button:hover {
+  background-color: #155a9a;
+}
+
+.admin-signin-button:disabled {
+  background-color: #b0bec5;
+  cursor: not-allowed;
+}
